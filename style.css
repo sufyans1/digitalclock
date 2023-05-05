@@ -1,0 +1,86 @@
+
+body
+{
+    overflow: hidden;
+    height: 100dvh;
+    background-color: #fdebd0;
+    padding-top: 30vh;
+}
+h1,h3
+{
+   
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: hsl(204, 94%, 21%);
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    justify-content: center;   
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+}
+#hour , #min , #sec 
+{
+   
+    box-shadow: 1.5vh 1.5vw rgb(83, 80, 80,0.5);
+    color: #073f64;
+    border-radius: 1vh;
+    border: none;
+    background-color: #3fe587;
+    margin: .5vh;
+    padding: 5vh 5vw;
+    text-align: center;
+    font-size: 2rem;
+}
+.social
+{   
+    margin: 1vw;
+    text-align: center;
+    font-size: larger;
+    padding-top: 10%;
+    align-items: center;
+    
+}
+.logo
+{   
+    height: 2vh;
+}
+a
+{
+   
+    color:#073f64;
+}
+
+/*responsive design */
+
+@media (width < 600px) {
+    
+body
+{
+    overflow: hidden;
+    background-color:#feb236;
+}
+h1 , h3
+{
+    color:#4f3222;
+}
+#hour , #min , #sec
+{
+    box-shadow: 10px 10px #9fa9a3;
+    color:#4f3222;
+    background-color:#f0f0f0;
+    margin: 0px;
+    padding: 10px;
+}
+.connect
+{
+    margin-left: 2vw;
+    width: 90vw;
+    margin-top: 2vh;
+}
+}
+/*end of code
