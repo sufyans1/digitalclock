@@ -23,7 +23,7 @@ function displayTime()
     date.innerHTML =  dt + " . " +mt + " . " + yr;
     //
     if (hour < 10) {
-        hh.innerHTML = zero + hour + "Hour";    
+        hh.innerHTML = zero + hour + "<br>" + "Hour";    
     }else
     {
     hh.innerHTML = hour+ "<br>" + "Hour";
